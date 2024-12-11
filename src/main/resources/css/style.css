@@ -1,0 +1,33 @@
+/* Tło */
+.root {
+    -fx-background-image: url("/images/background.jpg"); /* Ścieżka do obrazu */
+    -fx-background-size: cover; /* Dopasowanie obrazu do rozmiaru okna */
+    -fx-background-position: center; /* Wyśrodkowanie obrazu */
+}
+
+/* Stylizacja przycisków */
+.button {
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-pref-width: 200px; /* Domyślna szerokość */
+    -fx-pref-height: 50px; /* Domyślna wysokość */
+}
+
+/* Responsywność przycisków */
+.button:hover {
+    -fx-background-color: linear-gradient(#72b6c3, #2A5058);
+}
+
+.button:pressed {
+    -fx-background-color: linear-gradient(#2A5058, #72b6c3);
+}
+
+/* Styl dla logo Minecraft */
+.minecraft-logo {
+    -fx-translate-y: -50; /* Przesunięcie logo w górę */
+    -fx-fit-width: 300px; /* Dopasowanie rozmiaru logo */
+    -fx-fit-height: 200px; /* Dopasowanie wysokości logo */
+    -fx-preserve-ratio: true; /* Zachowanie proporcji */
+}
