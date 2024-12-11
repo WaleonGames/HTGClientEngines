@@ -1,0 +1,66 @@
+/* multiplayer.css */
+
+/* Ogólne tło */
+.root {
+    -fx-background-color: #2e2e2e; /* Ciemne tło */
+}
+
+/* HEADER */
+.header-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 20px;
+}
+
+/* Kafelki serwerów */
+.server-tiles {
+    -fx-background-color: #3c3c3c;
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+    -fx-spacing: 20px;
+}
+
+/* Pojedynczy kafelek serwera */
+.server-tile {
+    -fx-background-color: #4a4a4a;
+    -fx-padding: 15px;
+    -fx-border-radius: 10px;
+    -fx-alignment: center;
+    -fx-min-width: 200px;
+    -fx-min-height: 150px;
+}
+
+.server-name {
+    -fx-font-size: 18px;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
+
+.online-server {
+    -fx-font-size: 16px;
+    -fx-text-fill: #00FF00;
+}
+
+.offline-server {
+    -fx-font-size: 16px;
+    -fx-text-fill: #FF0000;
+}
+
+/* Przycisk powrotu */
+.back-button {
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-padding: 15px 30px;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 200px;
+}
+
+.back-button:hover {
+    -fx-background-color: linear-gradient(#72b6c3, #2A5058);
+}
+
+.back-button:pressed {
+    -fx-background-color: linear-gradient(#2A5058, #72b6c3);
+}
